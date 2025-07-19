@@ -1,0 +1,26 @@
+{
+	"id": "Lightsync-S2",
+	"name": "Lightsync-S2",
+	"shortname": "Lightsync-S2",
+	"description": "Cue light and control system",
+	"version": "1.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-lightsync-s2.git",
+	"bugs": "https://github.com/bitfocus/companion-module-lightsync-s2/issues",
+	"maintainers": [
+		{
+			"name": "Jason Holland",
+			"email": "Jason@Lightsync.com"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	},
+	"legacyIds": [],
+	"manufacturer": "Lightsync",
+	"products": ["Lightsync S2"],
+	"keywords": ["awesome"]
+}
